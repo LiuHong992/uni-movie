@@ -1,0 +1,1 @@
+<view class="title-wrap data-v-779def24"><view class="icon-image data-v-779def24"><image src="{{iconsrc==='superhero'?'../../static/hot.png':'../../static/notice.png'}}" class="data-v-779def24"></image></view><view class="title-txet data-v-779def24">{{''+titles+''}}</view></view>

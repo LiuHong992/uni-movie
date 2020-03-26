@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小爱电影",
+  "usingComponents": {
+    "uni-input": "/components/xiaowu-input/clear-input",
+    "thirds": "/components/login/thirdparty"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "电影详情",
+  "usingComponents": {
+    "uni-rate": "/components/uni-ui/uni-rate/uni-rate",
+    "artistmodel": "/components/moviedetail/artistmodel"
+  }
+}

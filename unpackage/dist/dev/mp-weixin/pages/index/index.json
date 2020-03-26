@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "banner": "/components/index/banner",
+    "indextitle": "/components/common/indextitle",
+    "supermodel": "/components/common/supermodel",
+    "guessmodel": "/components/common/guessmodel"
+  }
+}

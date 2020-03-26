@@ -1,0 +1,165 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"h5": {
+					"titleNView": {
+						"searchInput": {
+							"placeholder": "请输入电影信息",
+							"borderRadius": "10px",
+							"align": "left"
+						},
+						"buttons": [{
+								"index": "0",
+								"text": "搜索",
+								"float": "right",
+								"fontSize": "15px"
+							},
+							{
+								"float": "right"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{ //登录
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "小爱电影",
+				"h5": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{ //电影详情
+			"path": "pages/moviedetail/moviedetail",
+			"style": {
+				"navigationBarTitleText": "电影详情",
+				"h5": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"type": "share",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		},
+		{ //封面预览
+			"path": "pages/coverpre/coverpre",
+			"style": {
+				"navigationBarTitleText": "封面预览",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{ //我的账号
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "我的账号",
+				"h5": {
+					"titleNView": {
+						"backgroundColor": "#FFD655",
+						"titleColor": "#fff"
+					}
+				}
+			}
+		},
+		{ //头像上传
+			"path": "pages/portraitupload/portraitupload",
+			"style": {
+				"navigationBarTitleText": "头像上传",
+				"h5": {
+					"titleNView": {
+						"backgroundColor": "#000000",
+						"titleColor": "#fff"
+					}
+				}
+			}
+		},
+		{ //修改昵称
+			"path": "pages/changename/changename",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{ //修改生日
+			"path": "pages/changebirth/changebirth",
+			"style": {
+				"navigationBarTitleText": "修改生日"
+			}
+		},
+		{ //修改性别
+			"path": "pages/changesex/changesex",
+			"style": {
+				"navigationBarTitleText": "修改性别"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	// tabBar
+	"tabBar": {
+		"color": "#2c2c2c",
+		"selectedColor": "#d81e06",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/movie.png",
+				"selectedIconPath": "static/movie-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"iconPath": "static/search.png",
+				"selectedIconPath": "static/search-active.png",
+				"text": "搜索"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

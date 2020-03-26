@@ -1,0 +1,1 @@
+<block wx:if="{{searchmodels.id}}"><view class="search-model data-v-3fe0df74"><view class="search-cover data-v-3fe0df74"><image src="{{searchmodels.cover}}" class="data-v-3fe0df74"></image></view><view class="search-name data-v-3fe0df74">{{''+searchmodels.name+''}}</view></view></block>

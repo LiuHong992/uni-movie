@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.my-page .no-login-content .back-cover.data-v-0d525b37 {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADcASUDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1KiiivLJCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqdzq2nWdxHBc31vDLJ9xHkAJ7VzfjLxE9msulQIfMmiIeQMQVDehHeuCOoXo0ttNN5cPZsoVoXkLKVHQYJ6cD8q0UV1E2ke29RmivKfhTrd4mq6hoF20r2yZktHkJO0DGVB+hBx2/GvVqU48rsUFFFFQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKwfE3iH+woYQiK0swfZuzj5cf1YH8DXlN5fXV5fi9nu7h7hW3I5lYeX/u4Py9O1Ul3C50PjdZovE0xlGEkRGiPqoGD/wCPZ/SuZJPIHNX5tdudXWG01m4DIrHybraoaJiMZbplfX256gVEmn3Ml21rJ5cGxyjzu2IVxnnd6cH3/GtVF2uJxudf8PdPE4kvnZsW8hWJQcAEr82fXIK/kK9Ark9G1DRPD2hwwQXZmQsxZtp3u3c7ew9M44HerMfizTZ5BGLuaGRuFZ7YeWCem75t34iplFt6jsdHRWfpuotdvc2tzF5F/ZuI7mIHIBIyGU91I5B/wrQrNpp2YBRRRSAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDF8TaEuu6Z5SFVuYzuidugPcH2P+FeXT+GtchmaM6ZdNtOMpGWB+hFe10VSdgtc8h03wnclZ7rWoJ7OwgiMjyZAY45wB1zj/Pasm3eHUdStrSS3QKQIrGaZizRnPypIefvHABGApwMYrq/iH4jZ7k6Db5VUCyXDf3u6r9O/4VwwUSJtJxkEHBxW0ZNLXqK9tDaW7i857adZLa4jbY0U67CCP0P4VYZAvJPFdtoM1v4s8M/ZdSi82SAiCfcOWIAIb8QQfxNXIPB+kW1wJYUnQAcIJm2g+o5yD9KwlFJ2HYwvDcl9qPje6v8AznMEdlHBcqyFcyDGz2ZgN3PYEdc5ru6rWGn2ml2aWllAkECZwiDAyep+p9as1VSXNK42FFFFQIKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA4Txd4Ik1LUW1LT2hjd0AmRztDMD1z68/p+eDpXgTVpr1FvYfItlb53Lqcj0XB5r1kjIwahW0t0xtgjG07h8o4PXNXzuwHKMbrQJLXVvs4t7GWYW91bls+VEPkjkJ6ZGBn/AHuvFdejrIgdGDKwyCKJI0ljaORFdGGGVhkEehFZ9pb/ANkKlurr9i3YjDfeQk8LnvycDPqB9RvmXmM0qKAcjI5BoqBBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFBGaKKYFDS9NGlwSQrO8kZcsgb+EEk4/Mn0+lX6KKG7u7AKKKKQBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z);
+}
+.my-page .no-login-content .back-cover .hole-box.data-v-0d525b37 {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+}
+.my-page .no-login-content .back-cover .hole-box .no-login-image.data-v-0d525b37 {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #fff;
+}
+.my-page .no-login-content .back-cover .hole-box .no-login-image image.data-v-0d525b37 {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+}
+.my-page .no-login-content .back-cover .hole-box .login-register.data-v-0d525b37 {
+      font-weight: 700;
+      margin-left: 20px;
+}
+.my-page .no-login-content .back-cover .settings.data-v-0d525b37 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+}
+.my-page .no-login-content .back-cover .settings image.data-v-0d525b37 {
+      width: 100%;
+      height: 100%;
+}
+

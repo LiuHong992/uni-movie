@@ -1,0 +1,1 @@
+<view class="third-parties data-v-63e80771"><view class="title data-v-63e80771">第三方账号登录</view><view class="other-logins data-v-63e80771"><view class="loginby-wx data-v-63e80771"><image src="../../static/wx.png" data-loginType="weixin" data-event-opts="{{[['tap',[['loginWX',['$event']]]]]}}" bindtap="__e" class="data-v-63e80771"></image></view></view></view>

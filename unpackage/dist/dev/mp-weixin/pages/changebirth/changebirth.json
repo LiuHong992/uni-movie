@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "修改生日",
+  "usingComponents": {
+    "time-picker": "/components/wing-time-selector/wing-time-selector"
+  }
+}
